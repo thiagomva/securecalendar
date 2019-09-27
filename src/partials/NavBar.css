@@ -1,0 +1,83 @@
+.logo-link {
+  height: 45px;
+}
+
+.logo-link img {
+  height: 45px;
+}
+
+.nav-separator {
+  border-right: solid 1px #b2b2b2;
+  margin: 10px;
+}
+
+.btn-nav {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #989797;
+  margin-right: 10px;
+}
+
+.link-nav {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #989797 !important;
+}
+
+.link-nav:hover {
+  color: rgba(152,151,151, 0.5) !important;
+}
+
+.user-nav {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  margin-right: 5px;
+  color: #989797;
+}
+
+.user-nav-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #989797;
+}
+
+.user-img-nav {
+  height: 22px;
+  margin-right: 7px;
+  border-radius: 50%;
+}
+
+.twitter-nav {
+  font-size: 22px;
+  color: #989797 !important;
+}
+
+.twitter-nav:hover {
+  font-size: 22px;
+  color: rgba(152,151,151, 0.5) !important;
+}
+
+.user-nav-container {
+  display: inline-block;
+}
+
+li.dropdown {
+  padding-right: 15px;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: rgba(152,151,151, 0.5) !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #ffffff !important;
+}
+
+.dropdown-toggle::after {
+  color: #989797;
+  vertical-align: super;
+}

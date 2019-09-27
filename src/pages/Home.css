@@ -1,0 +1,121 @@
+.home-header {
+    width: 100%;
+    height: 430px;
+    border-radius: 6px;
+    margin-top: 15px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-header-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0px 50px 55px;
+    max-width: 485px;
+}
+
+.home-header-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1.33px;
+    color: #4d4d4d;
+}
+
+.home-header-text h3 {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #333333;
+    margin-top: 25px;
+}
+
+.home-header-action button {
+    padding: 14px 30px;
+    background-color: #85c9c9;
+    color: #1c6660;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.05px;
+    border-radius: 6px;
+    border: 1px solid #85c9c9;
+    box-shadow: 4px 4px 0px #204f6d;
+    width: fit-content;
+}
+
+.home-header-action button:hover {
+    box-shadow: 4px 4px 3px #204f6d;
+    color: #204f6d;
+}
+
+.home-header-action button:focus {
+    outline: none;
+}
+
+.home-header img {
+    height: 385px;
+    margin-top: 104px;
+    margin-right: -91px;
+}
+
+.home-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.home-features h3 {
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #333333;
+}
+
+.home-features > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.home-features > img {
+    margin-bottom: 120px;
+    height: 70px;
+}
+
+.home-feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 265px;
+    margin: 50px 0px 80px 0px;
+}
+
+.home-feature > img {
+    height: 76px;
+    margin-bottom: 40px;
+}
+
+.home-feature > span {
+    width: 30px;
+    height: 1px;
+    border-bottom: 4px solid #7dbd3a;
+    margin-bottom: 40px;
+}
+
+.home-feature > div {
+    color: #525252;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home-feature > div > strong {
+    margin-bottom: 7px;
+}

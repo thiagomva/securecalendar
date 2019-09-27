@@ -1,0 +1,75 @@
+.footer-container {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em; 
+}
+
+.footer-link {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #4f5564;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: rgba(79,85,100,0.8);
+}
+
+.footer-copyright {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.67;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #4f5564;
+  align-self: center;
+}
+
+.footer-copyright p { 
+    text-align: center;
+}
+
+footer {
+  background-color: #d9d9d9 !important;
+  height: 46px;
+  bottom: 0;
+  min-width: 100%;
+  position: absolute;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.vr {
+    display: inline;
+    border-left: 1px inset #4f5564;
+    margin: 5px
+}
+
+.footer-github {
+  line-height: 1;
+  text-align: end;
+}
+
+.footer-github > a {
+  color: #4f5564;
+  font-size: 16px;
+  line-height: 1;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.footer-github > a:hover {
+  text-decoration: none;
+  color: rgba(79,85,100,0.8);
+}
+
+

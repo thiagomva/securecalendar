@@ -1,0 +1,162 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #ffffff !important;
+  color: #989797;
+}
+
+#root {
+  min-width: 496px;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+}
+
+.alert-confirm-btn {
+  background-color: #7dbd3a !important;
+  border-color: #7dbd3a !important;
+  border-radius: 20px !important;
+  cursor: pointer !important;
+}
+
+.alert-confirm-btn:hover {
+  background-color: rgba(125,189,58, 0.6) !important;
+  border-color: rgba(125,189,58, 0.6) !important;
+}
+
+.alert-confirm-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(125,189,58, 0.6);
+}
+
+.alert-cancel-btn {
+  color: #6c757d !important;
+  border-color: #6c757d !important;
+  border-radius: 20px !important;
+  background-color: transparent !important;
+  border: 1px solid !important;
+  cursor: pointer !important;
+}
+
+.alert-cancel-btn:hover {
+  color: #fff !important;
+  background-color: #a9a9a9 !important;
+  border-color: #a9a9a9 !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.form-control,
+.form-control:focus {
+  background-color: transparent !important;
+}
+
+.truncate {
+  line-height: 1.25 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.action-btn {
+  border-radius: 24px;
+  box-shadow: 0px 3px 5px 0 rgba(125,189,58, 0.35), inset 0px 1px 0 0 rgba(0, 252, 255, 0.35) !important;
+  background-color: #7dbd3a !important;
+  color: #fefefe !important;
+  font-size: 14px;
+  padding: 10px 20px;
+  margin-left: 15px;
+}
+
+.action-btn:focus {
+  outline: none;
+}
+
+.action-btn:hover {
+  box-shadow: 0px 3px 15px 0 rgba(125,189,58, 0.35), inset 0px 1px 0 0 rgba(0, 252, 255, 0.35) !important;
+  color: #f9f9f9 !important;
+}
+
+.react-datepicker-wrapper {
+  height: 32px !important;
+  padding: 0 9px 0 12px !important;
+  border: 1px solid #d5d5d5 !important;
+  display: inline-block !important;
+  border-radius: 2px !important;
+}
+
+.react-datepicker__input-container::before {
+  line-height: 1 !important;
+  font-size: 14px;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  position: relative !important;
+  content: ' ';
+  background-image: url('/calendar.svg') !important;
+  background-size: 14px 14px !important;
+  height: 14px !important;
+  width: 14px !important;
+}
+
+.react-datepicker__input-container > input {
+  text-align: left  !important;
+  display: inline-block !important;
+  font-size: 12px !important;
+  vertical-align: middle !important;
+  position: relative !important;
+  padding-left: 8px !important;
+  border: none !important;
+  height: 30px !important;
+  outline: none !important;
+  width: 125px !important;
+}
+
+.icon-input-container {
+  height: 32px;
+  padding: 0 9px 0 12px;
+  border: 1px solid #d5d5d5;
+  display: inline-block;
+  border-radius: 2px;
+  clear: both;
+}
+
+.icon-input-container svg {
+  line-height: 1;
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.icon-input-container input {
+  text-align: left;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 8px;
+  border: none;
+  height: 30px;
+  outline: none;
+  width: calc(100% - 15px);
+}
+
+.modal-backdrop.show {
+  opacity: 0.1 !important;
+}
