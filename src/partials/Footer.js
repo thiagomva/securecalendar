@@ -26,7 +26,7 @@ class Footer extends Component {
               </div>
               <div className="col-6 footer-copyright"><p>Secure Calendar - 2019</p></div>
               <div className="col-3 footer-github">
-                <a className="clickable mr-1" title="See on Github" href="https://github.com/thiagomvaraujo/securecalendar" target="_blank">
+                <a className="clickable mr-1" title="See on Github" href="https://github.com/thiagomva/securecalendar" target="_blank">
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
               </div>
